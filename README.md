@@ -38,15 +38,15 @@ The logistic model incorporates a carrying capacity, representing the population
 
 **Differential equation:**
 
-\[
+$$
 \frac{dP}{dt}=rP\left(1-\frac{P}{K}\right)
-\]
+$$
 
 **Analytical solution:**
 
-\[
+$$
 P(t)=\frac{K}{1+\left(\frac{K-P_0}{P_0}\right)e^{-rt}}
-\]
+$$
 
 Where:
 - \(K\): Carrying capacity
