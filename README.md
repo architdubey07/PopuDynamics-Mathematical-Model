@@ -16,15 +16,15 @@ The exponential model assumes that the population grows at a constant proportion
 
 **Differential equation:**
 
-\[
-\frac{dP}{dt}=rP
-\]
+$$
+\frac{dP}{dt} = rP\left(1-\frac{P}{K}\right)
+$$
 
 **Analytical solution:**
 
-\[
-P(t)=P_0e^{rt}
-\]
+$$
+P(t) = \frac{K}{1+\left(\frac{K-P_0}{P_0}\right)e^{-rt}}
+$$
 
 Where:
 - \(P(t)\): Population at time \(t\)
